@@ -138,13 +138,41 @@ img {
     .steps .col {
         width: 22%;
     }
-
     .why-us .col-left {
         width: 26%;
     }
-
     .why-us .col-right {
         width: 40%;
     } 
 }
 
+@media screen and (max-width: 480px) {
+    .container h2 {
+        padding-right: 660px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .lessons .col {
+        width: 40%;
+    }
+    .steps {
+        margin: 0;
+    }
+    .steps .col {
+        width: 40%;
+        padding-bottom: 60px;
+    }
+    .why-us {
+        margin-bottom: 0px;
+        background-color: #222222;
+        padding-top: 60px;
+    }
+    .col-left {
+        padding-left: 60px;
+        margin-bottom: 60px;
+    }
+    .col-left img {
+        min-width: 300px;
+    }
+}
